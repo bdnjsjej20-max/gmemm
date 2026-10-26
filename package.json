@@ -1,0 +1,15 @@
+{
+  "name": "afterzero-first-person",
+  "version": "0.4.0",
+  "private": true,
+  "description": "AFTERZERO large-world multiplayer survival sandbox with mobile and Telegram Mini App support",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --check server.js && node --check public/game.js && node tests/static-check.js && node tests/server-smoke.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
